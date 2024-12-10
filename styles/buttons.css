@@ -1,0 +1,24 @@
+.btn {
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: .5rem;
+  font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
+}
+
+/*Paramos no minuto 02:45*/
+
+.btn-sm {
+
+}
+
+.btn-md {
+  
+}
+
+.btn-lg {
+
+}
