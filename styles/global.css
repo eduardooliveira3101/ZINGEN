@@ -96,6 +96,11 @@ ul[role="list"] {
 	list-style: none;
 }
 
+img {
+	max-width: 100%;
+	display: inline-block;
+}
+
 /*layout para desktop*/
 /*80em = 1280px de largura*/
 @media (width >= 80em) {
