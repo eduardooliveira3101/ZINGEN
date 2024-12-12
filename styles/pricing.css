@@ -100,13 +100,13 @@
 
   #pricing {
     --fs-price: 2.5rem;
+
+    & header {
+      max-width: 50rem;
+      margin-inline: auto;
+    }
   }
 
-  & header {
-    max-width: 50rem;
-    margin-inline: auto;
-  }
-  
   .btn-md {
     font-size: var(--fs-base);
     padding: .75rem 1.5rem;
