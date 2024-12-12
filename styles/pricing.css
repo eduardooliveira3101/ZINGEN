@@ -100,11 +100,11 @@
 
   #pricing {
     --fs-price: 2.5rem;
+  }
 
-    & header {
-      max-width: 50rem;
-      margin-inline: auto;
-    }
+  & header {
+    max-width: 50rem;
+    margin-inline: auto;
   }
   
   .btn-md {

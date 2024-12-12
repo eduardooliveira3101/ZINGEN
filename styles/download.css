@@ -10,10 +10,28 @@
       right: -3.5rem;
     }
   }
+}
 
-  .buttons {
-    flex-wrap: wrap;
-    margin-top: 2rem;
+.buttons {
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+@media (width >= 80em) {
+
+  #download {
+    & .card {
+      padding: 8.75rem 5rem;
+  
+      & > img {
+        width: 29.125rem;
+      }
+  
+      & > div:nth-child(1) {
+        max-width: 40rem;
+      }
+    }
   }
+
 }
 
